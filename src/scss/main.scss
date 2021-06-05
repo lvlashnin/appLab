@@ -78,6 +78,7 @@
     font-weight: 600;
     padding: 15px 30px;
     border-radius: 30px;
+    width: max-content;
 
 }
 
@@ -113,7 +114,8 @@
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        >*{
+
+        >* {
             margin: 10px 20px;
         }
     }
@@ -124,7 +126,8 @@
     &__container {
         max-width: 1370px;
         display: flex;
-        margin:0 auto;
+        margin: 0 auto;
+        flex-wrap: wrap;
     }
 
     &__side-img {
@@ -137,24 +140,25 @@
         display: flex;
         justify-content: end;
         flex-direction: column;
-        
+
     }
 
     &__content-heading {
-        margin:70px 0;
-        &>*{
+        margin: 70px 0;
+
+        &>* {
             margin: 10px;
         }
     }
 
     &__item {
         display: flex;
-        margin:20px 0;
+        margin: 20px 0;
     }
 
     &__item-text {
         max-width: 250px;
-        margin-left: 10px;        
+        margin-left: 10px;
     }
 
     &__item-heading-01 {
@@ -171,4 +175,154 @@
         color: #62a679;
         margin-bottom: 10px;
     }
+}
+
+.smart-jackpot {
+
+    &__container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    &__top-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__top-container-heading {
+        max-width: 500px;
+        padding: 0 70px 0 0;
+    }
+
+    &__top-container-paragraph {
+        max-width: 460px;
+        border-left: 1px solid rgb(75, 74, 72);
+        padding: 40px 0 0 52px;
+    }
+
+    &__items {
+        margin: 90px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        max-width: 265px;
+    }
+
+    &__heading-1,
+    &__heading-2,
+    &__heading-3 {
+        margin: 35px 0 20px;
+    }
+
+    &__item-icon {}
+
+    &__heading-1 {
+        color: #f55767;
+    }
+
+    &__heading-2 {
+        color: #2563ff;
+    }
+
+    &__heading-3 {
+        color: #62a679;
+    }
+}
+
+.designed-built {
+
+    &__container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 30px 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__content {
+        max-width: 430px;
+        padding-left: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &>* {
+            margin: 20px 0;
+        }
+    }
+
+}
+
+.choose-our-app {
+
+    &__container {
+        max-width: 970px;
+        margin: 0 auto;
+        padding: 100px 0;
+    }
+
+    &__container-top {
+        max-width: 630px;
+        margin: 0 auto;
+        text-align: center;
+
+        &>* {
+            padding: 10px 0;
+        }
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 70px 0;
+    }
+
+    &__item {
+        max-width: 270px;
+        padding: 30px 0;
+
+        &>* {
+            padding: 6px 0;
+        }
+    }
+}
+
+.ultimate-features {
+    &__container-fluid{
+        max-width: 1920px;        
+    }
+    
+    &__container {
+        max-width: 1360px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
+
+    }
+
+    &__content {
+       max-width: 630px;
+    }
+
+    &__top-content {
+        max-width: 400px;
+    }
+
+    &__items {        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        max-width: 255px;
+    }
+
+    &__side-img {}
 }
